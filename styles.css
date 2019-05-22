@@ -1,0 +1,76 @@
+html {
+    font-family: 'Boogaloo', cursive;
+    
+}
+
+.noScroll {
+    overflow: hidden;
+    
+}
+
+.artistPic{
+    width: 300px;
+    /*height: auto;*/
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 50px;
+}
+
+h2 {
+    font-weight: 500;
+    background: black;
+    color: white;
+    display:inline-block; 
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+#headingWrapper{
+    position: fixed;
+    /*top: 100px;*/
+    background-color: lightblue;
+    z-index: 100;
+    width: 100%;
+    margin-left: -20px;
+    padding-left: 20px;
+    margin-top: -50px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    background: black;
+    color: white;
+
+}
+
+nav {
+    font-size: 18px;
+    margin-top: -20px;
+}
+
+#contentWrapper{
+    position: relative;
+    top: 130px;
+}
+
+body {
+  background-image: url("vinyl-record.jpg");
+  background-repeat: repeat;
+  background-size: 20%;
+}
+
+a:link {
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:hover {
+  color: grey;
+}
+
